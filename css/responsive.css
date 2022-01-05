@@ -1,0 +1,188 @@
+
+/* Extra Small Device */
+@media (max-width: 767px) {
+/* header section */
+.header{
+	background-color: #a73ad3;
+	padding-top: 30px;
+}
+.header_logo {
+	margin: 0 auto;
+}
+.header_logo a{
+	font-size: 65px;
+}
+.header_menu{
+}
+.header_menu ul{
+}
+.header_menu ul li{
+	list-style: none;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	
+}
+.header_menu ul li a{
+	font-size: 20px;
+	color: white;
+	padding-bottom: 10px;
+}
+.header_menu ul li a:hover{
+	margin-left: 8px;
+	background-color: #471e57;
+	
+}
+.header_menu ul li a.active{
+	background-color: #a410df;
+
+}
+.text_part{
+	margin-top: 50px;
+
+}
+.text_part p{
+	font-size: 25px;
+}
+.butn{
+	margin-bottom: 100px;
+}
+.butn a{
+	background-color: #eb7d4b;
+	padding: 12px 34px;
+	color: white;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 500;
+	letter-spacing: 1px;
+	transition: 0.5s;
+}
+.butn a:hover{
+	text-decoration: none;
+	color: black;
+	background-color: #17c2a4;
+
+}
+/* end off header section */
+
+/* service section */
+.service_section{
+	background-color: #17c2a4;
+	padding-bottom: 50px;
+}
+.section_title h3{
+	font-size: 45px;
+}
+.section_title p{
+	padding: 30px;
+	font-size: 29px;
+}
+.service_content{
+	padding-bottom: 35px;
+}
+.service_content h5{
+	font-size: 29px;
+}
+.service_text{
+	font-size: 20px;
+}
+
+.icon img{
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+}
+/* end off service section */
+
+/* team section */
+.team p{
+	font-size: 29px;
+}
+.team_text p{
+	font-size: 22px;
+	margin-bottom: 30px;
+}
+.team_text a{
+	font-size: 20px;
+}
+.team_img img{
+	width: 220px;
+	height: 220px;
+}
+.social_icon a i{
+	width: 60px;
+	height: 60px;
+	margin-right: 5px;
+	color: white;
+	font-size: 25px;
+	padding-top: 17px;
+	margin-bottom: 30px;
+}
+/* end off team section */
+
+/* skill section */
+/* end off skill section */
+
+/* portfolio section */
+.portfolio_section p{
+	font-size: 29px;
+}
+  .portfolio_menue li{
+	padding: 8px 20px;
+  }
+  .single_portfolio{
+	margin-bottom: 30px;
+  }
+/* end off portfolio section */
+
+/* about section */
+.about_img img{
+	width: 220px;
+	height: 220px;
+	margin-left: 140px;
+}
+.description{
+	font-size: 18px;
+	text-align: center;
+}
+/* end off about section */
+/* contact section */
+.contact_section p{
+	font-size: 29px;
+}
+.center_all {
+    width: 100%;
+}
+.input_1{
+	margin-bottom: 20px;
+}
+/* end off contact section */
+
+/* footer section */
+.footer{
+	height: 200px;
+}
+/* end off footer section */
+}
+/* Small Device */
+@media (min-width: 768px) {
+	.col-md-6 {
+		margin-bottom: 32px !important;
+	}
+	.col-md-6 {
+	}	
+	.header_menu ul li a{
+		padding: 6px 12px;
+	}
+}
+
+/* Medium   Device */
+@media (min-width: 992px) {
+
+}
+
+/* Large Device */
+@media (min-width: 1200px) {
+
+
+}
